@@ -328,4 +328,4 @@
   + 발표 전 최종 확인 및 발표.
 
  ## 최종 발표 PPT 
- 
+ https://github.com/haeunkim48/Semi_project-/blob/main/%EC%A0%9C%EC%A3%BC%20%EA%B4%80%EA%B4%91%20%EB%B6%84%EC%84%9D.pdf
