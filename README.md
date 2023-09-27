@@ -1,32 +1,11 @@
 # Semi project 
 
-## 프로젝트 설명
+### 프로젝트 설명
+이 프로젝트는 "제주 여행에 대한 관광객 수 현황 및 인기 관광지 정보 및 현 트렌드 제공"을 주제로 1개월동안 진행한 프로젝트이다. 기간은 2023년 9월 6일부터 2023년 9월 26일까지 진행하였고, 언어는 Python 과 colab 을 사용하였다. 6명의 인원이 한 팀으로, 인기 관광지 파트, 만족도 조사, PPT, 성수기/비성수기, 물가 그리고 Streamlit 파트로 나뉘어 진행하였다. 자세한 설명은 아래를 참조하길 바란다. 
 
-- 언어 : python, google colab
-- 인원 : 6명 
-- 기간 : 2023.09.06 - 2023.09.26
-  
-- 주요내용
-  + 제주 관광 공사에 제안서를 만드는 것을 최종 목표로 삼음.
-  + ~~현재 독립변수 지정에 대한 회의를 거치는 중으로 확정시 수정 예정.(23.09.08)~~
-  + ~~날씨의 영향으로 인한 항공편, 선박편 연착 문제를 다루는 것으로 함. 입도객 통계 일부를 뒷받침함. => 날씨가 독립변수.~~
-  + 현재 날씨와 관련지을 항공편 결항 부분과 관광객수에 대한 가설검증이 제대로 이루어지지 못해 이 부분은 fail 요인으로 따로 기록하는 것으로 확정지음.(23.09.12)
-  + 성수기/비성수기 부분의 통계를 통해 입도객 통계의 성수기 월별의 통계를 뒷받침함. => 성수기가 독립변수. (이 때, 성수기는 12-1월, 7-8월로 설정잡음. 여름휴가와 크리스마스 연말 등을 성수기로 잡음.)
-  + 물가 관련 데이터를 제주 지역으로 한정해 수집하여 물가에 따른(숙박비별, 식비별, 항공/선박비별, 관광/문화지출별) 월별 평균 지출금액을 수집함. (+ 추후 뒷받침 할 근거로 만족도 조사를 찾아둠.)
-    + 물가와 관련된 만족도 조사의 요인 분석을 실행함.
-
-- 역할
-  + 현재 각 파트당 역할을 분담함.
-    + 날씨 파트 >> 인기 관광지 파트로 변경됨(23.09.13) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee), SangMingyu(https://github.com/SangMingyu)
-    + 만족도 조사(23.09.19) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee)
-    + PPT : SangMingyu(https://github.com/SangMingyu), HaJeong-K(본인)
-    + 성수기/비성수기 파트 : Ezraelyes(https://github.com/Ezraelyes), HWANHEECHO(https://github.com/HWANHEECHO)
-    + streamlit : HWANHEECHO(https://github.com/HWANHEECHO)
-    + 물가 파트 : HaJeong-K(https://github.com/HaJeong-K), Grace Kim(본인)
-
-## 주제 변천사
 
 ### 선택한 대주제 : 국민 여행조사 데이터를 활용한 여행 유형 분류
+#### 주제 변천사 
 
 1. 여행유형을 국내로 한정
    + 2020년부터 2022년까지 기간을 3년으로 잡고 국내여행에 대한 수요가 증가하는 추세라는 가설을 생각함.
@@ -48,6 +27,16 @@
    + 코로나를 기준으로 삼는 것이 가장 적절해 보였으나, 실질적으로 데이터를 찾는 것에 한계를 부딪히고 코로나가 가장 심했던 일부 시기의 데이터는 없었음.
    + 수집 가능했던 데이터를 기준으로 관광객 수의 큰 차이를 보지 못해 주제 파기.
 
+- 역할
+  + 현재 각 파트당 역할을 분담함.
+    + 날씨 파트 >> 인기 관광지 파트로 변경됨(23.09.13) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee), SangMingyu(https://github.com/SangMingyu)
+    + 만족도 조사(23.09.19) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee)
+    + PPT : SangMingyu(https://github.com/SangMingyu), HaJeong-K(본인)
+    + 성수기/비성수기 파트 : Ezraelyes(https://github.com/Ezraelyes), HWANHEECHO(https://github.com/HWANHEECHO)
+    + streamlit : HWANHEECHO(https://github.com/HWANHEECHO)
+    + 물가 파트 : HaJeong-K(https://github.com/HaJeong-K), Grace Kim(본인)
+
+
 ## 목표
 
 - 통계 분석 사용.
@@ -62,9 +51,6 @@
   + 머신러닝 sklearn의 train_test_split 사용.
 
 ## 개발 로그 기록
-
-- ~~데이터 수집 이후 시작할 예정.(23.09.08)~~
-- 데이터 전처리 과정은 넘어서야 트러블 슈팅이 진행될 것 같음.(23.09.12)
 
 [2023.09.11]
 
@@ -122,7 +108,7 @@
   + 성수기 : 활용 데이터 확정 및 전처리 마무리.
   + 물가 : 2020년, 2022년 전처리 마무리 + 통계분석 시작.
 
-- **Trounle-shooting**
+- **Trouble-shooting**
   + 물가 파트 전처리 과정에서 csv파일을 pandas DF로 읽어오는 것에 실패함 => 인코딩의 문제가 있었음.
     + 해결방법을 찾아 해결함.
   + 인기 관광지 목록을 텍스트 마이닝해서 워드 클라우드를 활용하는데 한글이 깨지는 현상이 일어남 > matplotlib.font_manager 참고해서 해결함.
@@ -146,7 +132,7 @@
   + streamlit : streamlit 구체화하기.
   + 물가 : 데이터 전처리 파트 최종 완료 + 시각화와 가설설정.
 
-- **Trounle-shooting**
+- **Trouble-shooting**
   + 지도 시각화를 진행하며 관광지 아이콘의 형태가 바뀌지 않는 경우가 존재
   + 아이콘의 색 또한 바뀌지 않는 경우가 존재
     + 공식 Document 및 스택오버플로우를 참고해서 명령어를 변경해서 문제 해결
@@ -171,7 +157,7 @@
   + streamlit : 전처리 완료된 데이터 수합하여 streamlit에 올려두기, streamlit 페이지 꾸미기.
   + 물가 : 시각화와 가설설정.
 
-- **Trounle-shooting**
+- **Trouble-shooting**
   + 물가데이터 시각화 활용 중 데이터 결측치로 인한 plotly 라인이 표시되지 않음.
     + 이 방법을 해결하기 위해서는 수집한 원데이터 자체에 데이터를 채워넣는 방법이 가장 확실했음 > 코드로 채우려했으나, matplotlib은 성공했지만 plotly는 구현하는 것에 문제가 있었음.
   + matplotlib을 사용했을 때도, 결측치와 한글 인코딩 이슈가 나타남 > 한글의 경우 나눔 고딕 폰트를 설정했고, 결측치는 코드를 구현해서 제로값으로 채워 그래프 표현함.
@@ -214,7 +200,7 @@
   + streamlit : 전처리 완료된 데이터 수합하여 streamlit에 올려두기.
   + 물가 : 물가파트의 종속변수에 대한 변동부분 회의, 가설 채택 및 부가 설명, 회귀 분석.
 
-- **Trounle-shooting**
+- **Trouble-shooting**
   + 물가데이터 박스플롯 시각화를 진행하며 labels와 positions 크기 호환이 안되는 이슈 발생.
     + 해결방법을 찾아 해결함. 
   + 분산분석을 진행하며 자잘한 이슈가 발생함.
@@ -263,7 +249,7 @@
   + streamlit : 처리 완료된 나머지 데이터 연동하여 결과 노출시키기, 디자인 수정 및 추가 데이터 등록 반복.
   + 물가 : 예측 마무리 및 예측 결과 기반 시각화 시작.
 
-- **Trounle-shooting**
+- **Trouble-shooting**
   + 물가 부분의 데이터 프레임 병합과정에서 자잘한 오류 발생.
     + 해결방법을 찾아 해결함.
 
