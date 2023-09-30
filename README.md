@@ -315,3 +315,6 @@
 
  ## 최종 발표 PPT 
 https://github.com/haeunkim48/Jeju_tourism_project-/blob/main/4%EC%A1%B0%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf
+
+ ## 프로젝트 기획안 
+ https://github.com/haeunkim48/Jeju_tourism_project-/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%ED%9A%8D%EC%95%88.docx.pdf
