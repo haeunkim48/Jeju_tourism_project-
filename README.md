@@ -1,4 +1,4 @@
-# Semi project 
+# Jeju Tourism Project 
 
 ### 프로젝트 설명
 이 프로젝트는 "제주 여행에 대한 관광객 수 현황 및 인기 관광지 정보 및 현 트렌드 제공"을 주제로 1개월동안 진행한 프로젝트이다. 기간은 2023년 9월 6일부터 2023년 9월 26일까지 진행하였고, 언어는 Python 과 colab 을 사용하였다. 6명의 인원이 한 팀으로, 인기 관광지 파트, 만족도 조사, PPT, 성수기/비성수기, 물가 그리고 Streamlit 파트로 나뉘어 진행하였다. 자세한 설명은 아래를 참조하길 바란다. 
@@ -314,4 +314,4 @@
   + 발표 전 최종 확인 및 발표.
 
  ## 최종 발표 PPT 
-https://github.com/haeunkim48/Jeju_tourism_project-/blob/main/%EC%A0%9C%EC%A3%BC%20%EA%B4%80%EA%B4%91%20%EB%B6%84%EC%84%9D.pdf
+https://github.com/haeunkim48/Jeju_tourism_project-/blob/main/4%EC%A1%B0%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf
