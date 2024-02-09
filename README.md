@@ -49,6 +49,56 @@
   + 2022년의 데이터가 없어서 이 부분의 값을 추정해 추이를 보는 것으로 사용.
   + 원 주제에서는 사용할 생각이 없었으나, 주제가 거듭 변경이 되면서 최종적으로 예측을 사용함.
   + 머신러닝 sklearn의 train_test_split 사용.
+ 
+### Project Description
+This project was carried out for a month under the theme of "Providing the Current Status of the Number of Tourists on Jeju Travel, Information on Popular Tourist Destinations, and Current Trends." The period was from September 6, 2023 to September 26, 2023, and Python and Colab were used as languages. Six people were divided into popular tourist destinations, satisfaction surveys, PPT, peak/low season, prices, and Streamlit parts as a team. Please refer to the following for detailed explanations.
+
+
+### Topic selected: Classification of travel types using national travel survey data
+#### the history of subject change
+
+1. Limited travel type to Korea
++ Considering the hypothesis that the period from 2020 to 2022 is set at three years and the demand for domestic travel is increasing.
++ As a trend of increasing domestic travel after Corona, it aims to classify and analyze travel types by tourist destination/monthly, and to visualize related independent variables as types after regression analysis.
+2. Topic change to reduce by multiple tourist destinations for API use.
++ As a feedback, we are recommended to compare the COVID-19 period before and after based on a region such as Jeju Island, or to use travel-related parts such as regional inflation.
+3. Accepting feedback = Limited to Jeju Island.
++ It is helpful to limit the area to Jeju even when using API.
++ Based on statistical analysis (up to regression analysis) of differences in Jeju travel before and after the COVID-19 period (bashing, cost difference with overseas travel, etc.).
++ Core data such as congestion information at Jeju Airport and the status of domestic and foreign tourists traveling to Jeju Island are collected first, focusing on API.
+4. I think I'm going to take the topic 3 as it is, but I'm going to think about using machine learning additionally.
++ Collect papers on similar topics and note the analytical techniques used.
+5. Leave the topic 3 as it is, and determine the dependent variable.
++ Based on monthly sales or statistics on the number of tourists, => The number of tourists is the dependent variable.
++ Presenting the direction of regression analysis designating an independent variable for how much it affects sales or tourists.
++ Specify who to target layer
++ Those who want to write papers and articles on Jeju Tourism Corporation and Corona impact.
+6. Change to the final topic = Provide information on the number of tourists and popular tourist destinations for Jeju travel excluding Corona and current trends.
++ It seemed most appropriate to base Covid on it, but there was no data from some of the periods when Covid was most severe, with limits on finding data in practice.
++ Destroying the subject because there is no significant difference in the number of tourists based on the data that could be collected.
+
+- Roles
++ Divided roles for each part at present.
++ Weather Part >> Changed to Popular Tourist Destinations (23.09.13): Sang-Hyeok-Lee (https://github.com/Sang-Hyeok-Lee), SangMingyu (https://github.com/SangMingyu)
+  + 만족도 조사(23.09.19) : Sang-Hyeok-Lee(https://github.com/Sang-Hyeok-Lee)
+  + PPT : SangMingyu(https://github.com/SangMingyu), HaJeong-K(본인)
+  + 성수기/비성수기 파트 : Ezraelyes(https://github.com/Ezraelyes), HWANHEECHO(https://github.com/HWANHEECHO)
+  + streamlit : HWANHEECHO(https://github.com/HWANHEECHO)
+  + 물가 파트 : HaJeong-K(https://github.com/HaJeong-K), Grace Kim(myself)
+
+
+## Goals
+
+- Use statistical analysis.
++ The original theme was to conduct t-test before and after Corona, but in the price part, the dependent variable corresponds to the average monthly expenditure and the independent variable corresponds to four years' worth, so AVNOA is conducted.
++ In the peak season part, it is difficult to analyze factors using a satisfaction scale, so t-test is conducted.
+- Enable regression analysis.
++ Linear regression analysis is conducted by selecting five independent variables estimated to affect each monthly expenditure value for four years and the expenditure value.
++ Using LinearRegression by Machine Learning Sklearn.
+- a predictive implementation.
++ There is no data for 2022, so it is used to estimate the value of this part and see the trend.
++ I didn't intend to use it in the original subject, but as the subject changed over and over again, I finally used prediction.
++ Use train_test_split in machine learning sklearn.
 
 ## 개발 로그 기록
 
